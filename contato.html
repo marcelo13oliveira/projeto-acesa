@@ -14,12 +14,14 @@
     
     <button title="Acessibilidade" onclick="mostrarOcultarElemento(this);" aria-expanded="false">Clique aqui para ver as opções de acessibilidade.</button>
     <div class="corpo-acessibilidade" style="display: none;">
-        <section class="navcontrast">
+        <!-- <section class="navcontrast">
             <div>
                 <label class="label" for="chk">Ativar alto contraste.</label>
                     <input aria-label="Ativar alto contraste" type="checkbox" class="checkbox" id="chk" />
             </div>
-    
+ -->
+            <input type="color" aria-label="Escolher cores" />
+
         <div class="navfontsize">
             <ul id="fonte-lista-dropdown" class="aria-expended">
                 <li><button aria-label="Aumentar fonte" id="aumentar-fonte">A+</button></li>
@@ -51,7 +53,7 @@
     </script>
 <script src="src/js/fonte.js"></script>
 <script src="src/js/sanfona.js"></script>
-<script src="src/js/toggleContrast.js"></script>
+<!-- <script src="src/js/toggleContrast.js"></script> -->
 <script src="src/js/zoom.js"></script>
 </body>
 </html>
